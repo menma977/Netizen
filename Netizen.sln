@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netizen", "Netizen.csproj", "{C793C083-29CE-4264-A089-FB093A16D70A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C793C083-29CE-4264-A089-FB093A16D70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C793C083-29CE-4264-A089-FB093A16D70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C793C083-29CE-4264-A089-FB093A16D70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C793C083-29CE-4264-A089-FB093A16D70A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
