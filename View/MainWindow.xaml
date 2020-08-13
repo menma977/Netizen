@@ -22,9 +22,9 @@
     <materialDesign:Card Padding="10" Margin="20">
       <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-          <TextBox HorizontalAlignment="Stretch" materialDesign:HintAssist.Hint="Username"
+          <TextBox Name="UsernameBox" HorizontalAlignment="Stretch" materialDesign:HintAssist.Hint="Username"
                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Width="250" Margin="5" />
-          <PasswordBox HorizontalAlignment="Stretch" PasswordChar="*" materialDesign:HintAssist.Hint="Password"
+          <PasswordBox Name="PasswordBox" HorizontalAlignment="Stretch" PasswordChar="*" materialDesign:HintAssist.Hint="Password"
                        Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" Width="250" Margin="5" />
         </StackPanel>
         <Button Style="{StaticResource MaterialDesignRaisedAccentButton}" Width="auto" ToolTip="Login Button" Click="LoginClick">

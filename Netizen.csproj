@@ -113,8 +113,8 @@
             <DependentUpon>App.xaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
-        <Compile Include="Collection\DogeController.cs" />
-        <Compile Include="Config\MapToJson.cs" />
+        <Compile Include="Controller\DogeController.cs" />
+        <Compile Include="Controller\WebController.cs" />
         <Compile Include="Model\PlaceBetModel.cs" />
         <Compile Include="View\HomeWindow.xaml.cs">
           <DependentUpon>HomeWindow.xaml</DependentUpon>
@@ -141,9 +141,6 @@
     <ItemGroup>
         <None Include="App.config" />
         <None Include="packages.config" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Controller" />
     </ItemGroup>
     <ItemGroup>
       <Page Include="View\HomeWindow.xaml" />

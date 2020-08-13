@@ -43,7 +43,7 @@
               ToolTip="Resource name: MaterialDesignRaisedLightButton"
               Margin="8 0 0 0"
               Panel.ZIndex="0"
-              Click="UpdateOnclick">
+              Click="StartBotA">
               Bot A
             </Button>
             <Button

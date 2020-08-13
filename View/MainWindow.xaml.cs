@@ -10,10 +10,12 @@ namespace Netizen.View
     public MainWindow()
     {
       InitializeComponent();
+      UsernameBox.Text = (string) Application.Current.Properties["usernameWeb"];
     }
 
     private void LoginClick(object sender, RoutedEventArgs routedEventArgs)
     {
+      Application.Current.Properties["usernameWeb"] = UsernameBox.Text;
       var home = new HomeWindow();
       home.Show();
       Close();
